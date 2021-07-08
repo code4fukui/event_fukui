@@ -83,7 +83,7 @@ onload = async () => {
     div.appendChild(a);
     a.href = d["ic:参照"];
     const img = create("img");
-    img.src = d["ic:画像"];
+    img.src = d["ic:画像"] || "./event.png";
     a.appendChild(img);
     const body = create("div");
     div.appendChild(body);
