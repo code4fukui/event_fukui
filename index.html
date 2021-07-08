@@ -66,11 +66,21 @@ img {
 <script type="module">
 import { h1, create, add, div, css } from "https://js.sabae.cc/stdom.js";
 import { CSV } from "https://js.sabae.cc/CSV.js";
+import { Day } from "https://code4fukui.github.io/day-es/Day.js";
 
 onload = async () => {
   const url = "https://code4fukui.github.io/event_fukui_data/data/event_fukui.csv";
-  const data = CSV.toJSON(await CSV.fetch(url));
-  console.log(data);
+  const data0 = CSV.toJSON(await CSV.fetch(url));
+  console.log(data0);
+  const data = data0.filter(d => {
+    try {
+      const day = new Day(d.日時備考);
+      return new Day().subDay(day) <= 0;
+    } catch (e) {
+      //console.log(e);
+    }
+    return true;
+  });
 
   h1("イベント福井");
   const c = add("div");
