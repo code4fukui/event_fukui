@@ -1,5 +1,7 @@
 # event_fukui
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A web application that displays upcoming events in Fukui, Japan.
 
 ## Demo
