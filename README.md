@@ -16,4 +16,4 @@ https://code4fukui.github.io/event_fukui/
 The event data is fetched from a CSV file hosted at https://code4fukui.github.io/event_fukui_data/data/event_fukui.csv.
 
 ## License
-This project is licensed under the MIT License.
+MIT License — see [LICENSE](LICENSE).
