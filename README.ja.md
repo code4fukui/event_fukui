@@ -4,7 +4,7 @@
 
 ## デモ
 
-**https://code4fukui.github.io/event_fukui/**
+**https://github.com/code4fukui/event_fukui
 
 > 本アプリケーションは、イベントカードをレスポンシブなグリッドで表示します。各カードには16:9のイベント画像が配置され、その下にイベントの日時とタイトルが続きます。
 

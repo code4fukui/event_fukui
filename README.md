@@ -6,7 +6,7 @@ A simple, single-page web application that displays upcoming events in Fukui, Ja
 
 ## Demo
 
-**https://code4fukui.github.io/event_fukui/**
+**https://github.com/code4fukui/event_fukui
 
 > The application displays a responsive grid of event cards. Each card features a 16:9 event image, followed by the event date and title.
 
